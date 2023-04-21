@@ -285,6 +285,13 @@ input {
   -moz-transition: border 0.3s;
   -o-transition: border 0.3s;
   transition: border 0.3s;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 .inputWrapper input::placeholder {
   opacity: 1;

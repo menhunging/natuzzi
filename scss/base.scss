@@ -79,6 +79,8 @@ input {
     border-bottom: 1px solid $colorBlack-a2;
     width: 100%;
     @include transition(border 0.3s);
+    @include border-radius(0);
+    @include appearance(none);
 
     &::placeholder {
       opacity: 1;
