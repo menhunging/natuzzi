@@ -129,10 +129,11 @@ input {
   width: 100px;
   height: 100px;
   @include border-radius(50%);
+  @include transition(all 0.3s);
+  background-image: url("../img/arrow-up.svg");
   background-position: center;
   background-repeat: no-repeat;
   border: solid 1px $colorBlack-a4;
-  @include transition(all 0.3s);
   z-index: 5;
   display: flex;
   align-items: center;
