@@ -1,0 +1,18 @@
+.btn {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+  padding: 24px 5px;
+  @include border-radius(76px);
+  @include transition(background-color 0.3s);
+  background-color: $colorBlack;
+  min-width: 501px;
+  text-align: center;
+  text-transform: lowercase;
+
+  &:hover {
+    background-color: $colorBtnHover;
+  }
+}

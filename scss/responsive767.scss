@@ -1,0 +1,165 @@
+@media (max-width: 767px) {
+  .header {
+    &__content {
+      padding: 15px 0 17px;
+    }
+  }
+
+  .grettings {
+    &__title {
+      font-size: 24px;
+      line-height: 32px;
+      max-width: 290px;
+    }
+
+    &__date {
+      font-size: 18px;
+      line-height: 24px;
+      margin-top: 10px;
+    }
+
+    &__btn {
+      margin-top: 14px;
+    }
+
+    &__picture {
+      padding-top: 75.5%;
+      margin-top: -205px;
+    }
+  }
+
+  .program {
+    &__list {
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-top: 17px;
+    }
+
+    &__item {
+      &_long {
+        grid-column: 1/2;
+      }
+
+      &__content {
+        padding: 10px;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      &__title {
+        font-size: 16px;
+        line-height: 22px;
+
+        & + * {
+          margin-top: 2px;
+        }
+      }
+
+      &__picture {
+        padding-top: calc(200 / 290 * 100%) !important;
+      }
+    }
+  }
+
+  .registration {
+    &__content {
+      padding: 14px 0;
+    }
+
+    &__form {
+      padding: 15px 9px;
+    }
+
+    &__text {
+      margin-top: 5px;
+      text-align: left;
+    }
+
+    .inputWrapper {
+      margin-top: 21px;
+    }
+
+    .controls {
+      margin-top: 30px;
+    }
+  }
+
+  .footer {
+    &__content {
+      padding: 20px 0;
+    }
+  }
+
+  .section__title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .inputWrapper {
+    input {
+      font-size: 12px;
+      line-height: 18px;
+      height: 38px;
+    }
+
+    .error {
+      font-size: 10px;
+      line-height: 15px;
+      top: 100%;
+      right: auto;
+      left: 0;
+    }
+  }
+
+  .btn {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 270px;
+    min-width: inherit;
+    width: 100%;
+  }
+
+  .copyRight {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 43px;
+  }
+
+  .btnArrowUp {
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/arrow-up-320.svg");
+    top: 16px;
+  }
+
+  .modal__container {
+    max-width: 100%;
+    padding: 20px 15px;
+  }
+
+  .modal-result {
+    padding: 54px 15px 15px;
+    text-align: center;
+
+    &__caption {
+      & + * {
+        margin-top: 15px;
+      }
+    }
+
+    &__text {
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    .btn {
+      min-width: 270px;
+      margin-top: 15px;
+    }
+  }
+
+  .modal__close {
+    right: 25px;
+    top: 35px;
+  }
+}
