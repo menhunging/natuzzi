@@ -947,35 +947,26 @@ input {
   .grettings {
     padding-top: 160px;
   }
-  .grettings__content {
-    display: flex;
-    flex-direction: column;
-  }
   .grettings__title {
     font-size: 36px;
     line-height: 42px;
     max-width: 630px;
-    order: 1;
   }
   .grettings__date {
     font-size: 24px;
     line-height: 32px;
     margin-top: 20px;
-    order: 2;
   }
   .grettings__adress {
-    order: 3;
     font-size: 24px;
     line-height: 32px;
     margin-top: 20px;
   }
   .grettings__btn {
     margin-top: 20px;
-    order: 3;
   }
   .grettings__picture {
     margin-top: -282px;
-    order: 4;
     padding-top: 44.7317073171%;
   }
   .program {
@@ -1153,10 +1144,8 @@ input {
     font-size: 18px;
     line-height: 24px;
     margin-top: 15px;
-    order: 3;
   }
   .grettings__adress {
-    order: 2;
     font-size: 18px;
     line-height: 24px;
     margin-top: 15px;
