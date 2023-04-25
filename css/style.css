@@ -1197,6 +1197,14 @@ input {
   .registration__form {
     padding: 15px 9px;
   }
+  .registration__form .section__title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .registration__form .section__title::before {
+    background-image: url("../img/back-name-mobile.svg");
+    background-size: auto;
+  }
   .registration__text {
     margin-top: 5px;
     text-align: left;
@@ -1209,10 +1217,6 @@ input {
   }
   .registration .controls {
     margin-top: 30px;
-  }
-  .registration .section__title {
-    font-size: 18px;
-    line-height: 24px;
   }
   .footer__content {
     padding: 20px 0;
@@ -1293,6 +1297,9 @@ input {
     font-size: 18px;
     line-height: 24px;
     margin-top: 10px;
+  }
+  .specialQuest__name::before {
+    background-image: url("../img/back-name-mobile.svg");
   }
   .specialQuest__desc {
     font-size: 12px;
