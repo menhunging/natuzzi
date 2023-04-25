@@ -4,18 +4,24 @@
 }
 
 .footer__content {
-  padding: 50px 0 30px;
+  padding: 30px 0 30px;
   text-align: center;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 
   .logoWrapper {
+    width: 125px;
+
+    &+.logoWrapper{
+      margin-left: 70px;
+    }
   }
 }
 
 .copyRight {
+  width: 100%;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
