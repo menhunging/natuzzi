@@ -59,80 +59,29 @@
         </div>
       </section>
 
-      <!-- <section class="program">
-        <div class="container">
-          <h2 class="section__title">Программа мероприятия</h2>
-          <div class="program__list">
-            <div class="program__item">
-              <div class="program__item__picture">
-                <img src="img/pic-program1.jpg" alt="">
-              </div>
-              <div class="program__item__content">
-                <h3 class="program__item__title">Песочное шоу – «история NATUZZI»</h3>
-                <p>+ мастер класс для дизайнеров</p>
-              </div>
-            </div>
-            <div class="program__item">
-              <div class="program__item__picture">
-                <img src="img/pic-program2.jpg" alt="">
-              </div>
-              <div class="program__item__content">
-                <h3 class="program__item__title">Дегустация Апулийский вин</h3>
-                <p>Varvaglione Vigne e Vini</p>
-              </div>
-            </div>
-            <div class="program__item program__item_long">
-              <div class="program__item__picture">
-                <img src="img/pic-program3.jpg" alt="">
-              </div>
-              <div class="program__item__content">
-                <h3 class="program__item__title">Выступление Chief Creative Officer - Pasquale Junior Natuzzi</h3>
-              </div>
-            </div>
-            <div class="program__item">
-              <div class="program__item__picture">
-                <img src="img/pic-program4.jpg" alt="">
-              </div>
-              <div class="program__item__content">
-                <h3 class="program__item__title">Розыгрыш легендарного пуфа – Terra (Desinger – Marcantonio)</h3>
-                <p>а так же сертификаты на скидку и другие брендированные подарки для гостей</p>
-              </div>
-            </div>
-            <div class="program__item">
-              <div class="program__item__picture">
-                <img src="img/pic-program5.jpg" alt="">
-              </div>
-              <div class="program__item__content">
-                <h3 class="program__item__title">Фотозона и профессиональный фотограф</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-
       <section class="registration" id="registration">
         <div class="container">
           <div class="registration__content">
-            <form action="" class="registration__form">
+            <form action="" class="registration__form" method="post" id="form">
               <h2 class="section__title">Регистрация на мероприятие</h2>
-              <div class="inputWrapper inputError">
-                <input type="text" placeholder="Ваше ФИО*">
+              <div class="inputWrapper">
+                <input type="text" placeholder="Ваше ФИО*" name="fio">
                 <span class="error">Необходимо заполнить поле</span>
               </div>
               <div class="inputWrapper">
-                <input type="text" placeholder="Ваш e-mail*">
+                <input type="text" placeholder="Ваш e-mail*" name="email">
                 <span class="error">Необходимо заполнить поле</span>
               </div>
               <div class="inputWrapper">
-                <input type="text" placeholder="Ваш номер телефона*" class="input-phone">
+                <input type="text" placeholder="Ваш номер телефона*" class="input-phone" name="phone">
                 <span class="error">Необходимо заполнить поле</span>
               </div>
+              <input type="hidden" name="sp" value="" class="sp">
               <div class="controls">
                 <button type="submit" class="btn">Зарегистрироваться</button>
               </div>
               <div class="registration__text">
-                <span>Нажимая кнопку, вы соглашаетесь с <a class="link" data-custom-open="modal-result">политикой
-                    конфиденциальности</a></span>
+                <span>Нажимая кнопку, вы соглашаетесь с <a class="link">политикой конфиденциальности</a></span>
               </div>
             </form>
           </div>
